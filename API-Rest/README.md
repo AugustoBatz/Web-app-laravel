@@ -11,10 +11,32 @@ Dillinger requires Larvel, PHP & MariaDB to run.
 
 Install the dependencies and devDependencies and start the server.
 
+### Install Composer Dependencies
+
+``` sh
+$ composer install
+
+```
+
+### Install Install NPM Dependencies
+
+``` sh
+$ npm install
+
+```
+Create a copy of your .env file
+Add set configurations database 
+``` sh
+$ cp .env.example .env
+```
+*Note:* Is necessary install Mysql Drive for php 
+
 ```sh
 $ php php artisan migrate
 $ php php artisan serve
 ```
+
+
 
 ### Plugins
 
